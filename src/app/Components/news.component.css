@@ -1,0 +1,45 @@
+
+
+.news-container{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+p{
+  margin:0;
+}
+
+.wrapper{
+  width: 50%;
+  margin: 0 auto;
+  background-color: rgb(245, 245, 245);
+  padding: 20px;
+}
+
+
+.news-container_textblock{
+  width: 60%;
+}
+
+.image-block{
+  width: 40%;
+}
+
+.title_news{
+  font-weight: 700;
+  font-size: 18px;
+  max-width: 90%;
+}
+
+.time_news{
+  font-size: 9px;
+}
+
+.image_news{
+  object-fit: cover;
+  width: 250px;
+}
+
+.image-block{
+  margin-bottom: 10px;
+}
